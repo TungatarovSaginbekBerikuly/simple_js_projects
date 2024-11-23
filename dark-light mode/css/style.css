@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    max-width: 1400px;
+    margin: 50px auto;
+}
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    transition: background ease 0.3s;
+}
+h1 {
+    margin-bottom: 10px;
+}
+.img {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: background ease 0.3s;
+}

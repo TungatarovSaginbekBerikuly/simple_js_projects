@@ -1,0 +1,15 @@
+body {
+    color: #202020;
+    background: #ececec;
+}
+button {
+    background: #202020;
+    color: #fff;
+    border: #202020;
+}
+button:active {
+    background: #303030;
+}
+.img {
+    background: #202020;
+}
