@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Window</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button class="modal-show" data-modal="#sign-in">Sign In</button>
+    <button class="modal-show" data-modal="#sign-up">Sign Up</button>
+
+    <div class="modal-wrap hide" id="sign-in">
+        <div class="modal">
+            <button class="modal-close">Close</button>
+            <h2>Sign In</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque mollitia eum earum ad pariatur ullam commodi ipsum voluptates sit numquam!</p>
+        </div>
+    </div>
+
+    <div class="modal-wrap hide" id="sign-up">
+        <div class="modal">
+            <button class="modal-close">Close</button>
+            <h2>Sign Up</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque mollitia eum earum ad pariatur ullam commodi ipsum voluptates sit numquam!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
